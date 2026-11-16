@@ -19,8 +19,9 @@ I'm a **BS Software Engineering student at COMSATS University Islamabad (Abbotta
 ## 🧭 Focus
 
 - **Mobile** — Flutter apps with Cubit state management, GoRouter navigation and Firebase Auth
+- **Backend** — FastAPI and Node.js / Express services with PostgreSQL
 - **Full-stack web** — Next.js 15, TypeScript, Tailwind, shadcn/ui, Prisma + PostgreSQL, Auth.js, Stripe
-- **Applied AI** — real-time tajweed error detection and LLM-powered features via the Anthropic API
+- **Applied AI** — speech-based Tajweed feedback for Quran recitation (MakharijPro AI)
 - **Data pipelines** — word-level phoneme datasets exported to Parquet and JSONL
 - **Software design** — design patterns, clean architecture, formal specification & verification
 
@@ -30,9 +31,10 @@ I'm a **BS Software Engineering student at COMSATS University Islamabad (Abbotta
 
 | Project | What it is | Built with |
 | :-- | :-- | :-- |
-| **[MakharijPro AI](https://github.com/mustfaaaa/makharij-pro)** | Quran / tajweed mobile app with real-time tajweed error detection and an "Ask AI" assistant (Rattil AI) | Flutter · Firebase · Cubit · GoRouter |
-| **ElectroCalcHub** | Professional electrical-engineering calculator platform — pure-TypeScript calculation core with a self-registering calculator catalog | Next.js 15 · TypeScript · Prisma · PostgreSQL · Stripe |
-| **Makharij Dataset** | Data pipeline producing word-level phoneme metadata enriched with the 17 Arabic *makhārij* (articulation points) — ~77K words, ~522K phone tokens | Parquet · JSONL |
+| **[MakharijPro AI](https://github.com/hammadfareed4/makharij-pro)** | Final-year project (team of three). Recite the Quran and get word-by-word Tajweed feedback across all 6,236 ayahs: live word highlighting, named mistakes (madd, ghunnah, shaddah, makhraj), progress tracking and the Rattil AI assistant | Flutter · FastAPI · Firebase · Python |
+| **DOHA Brew Bar POS** | Point-of-sale system for a campus brew bar with a cloud service for customer QR ordering, POS order sync and encrypted backups *(private repo)* | Node.js · Express · PostgreSQL · Docker |
+| **ElectroCalcHub** *(in progress)* | Electrical-engineering calculator platform. Architecture and homepage shell done; pure-TypeScript calculation core with a self-registering calculator catalog | Next.js 15 · TypeScript · Tailwind · shadcn/ui |
+| **Makharij Dataset** | Data pipeline producing word-level phoneme metadata enriched with the 17 Arabic *makhārij* (articulation points): 77,429 words, ~522K phone tokens. Feeds the per-word Tajweed reference in MakharijPro AI | Python · PyArrow · Parquet · JSONL |
 | **[SDA](https://github.com/hammadfareed4/SDA)** | Projects and assignments on software design, architecture patterns and development methodologies | Java |
 | **[Observer Design Pattern](https://github.com/hammadfareed4/OBSERVER_DESIGN_PATTERN)** | A worked implementation of the Observer pattern | Java |
 
@@ -79,5 +81,6 @@ I run **Mir Rent A Car**, a chauffeur-driven car rental business in Islamabad �
 ## 📫 Connect
 
 <p>
+  <a href="https://www.linkedin.com/in/hammad-fareed"><img src="https://img.shields.io/badge/LinkedIn-hammad--fareed-0A66C2?style=for-the-badge" alt="LinkedIn"></a>
   <a href="https://github.com/hammadfareed4"><img src="https://img.shields.io/badge/GitHub-hammadfareed4-181717?style=for-the-badge&logo=github" alt="GitHub"></a>
 </p>
